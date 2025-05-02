@@ -1,0 +1,58 @@
+{
+  "napoleao": [
+    {
+      "question": "Quando Napoleão Bonaparte assumiu o poder na França?",
+      "answer": "Em 9 de novembro de 1799 (18 de Brumário), através de um golpe de estado."
+    },
+    {
+      "question": "O que foi o Bloqueio Continental?",
+      "answer": "Política econômica imposta por Napoleão que proibia os países europeus de comercializarem com a Grã-Bretanha, visando isolá-la economicamente."
+    },
+    {
+      "question": "Qual foi o principal legado jurídico de Napoleão?",
+      "answer": "O Código Civil Napoleônico (1804), que sistematizou as leis civis e garantiu conquistas da Revolução Francesa como a igualdade perante a lei."
+    }
+  ],
+  "liberalismo": [
+    {
+      "question": "Quem escreveu 'A Riqueza das Nações', obra fundamental do liberalismo econômico?",
+      "answer": "Adam Smith, em 1776."
+    },
+    {
+      "question": "O que significa o conceito de 'mão invisível' proposto por Adam Smith?",
+      "answer": "A ideia de que o mercado se autorregula através da busca do interesse individual, que acaba promovendo o bem coletivo sem necessidade de intervenção estatal."
+    },
+    {
+      "question": "Quais são os princípios fundamentais do liberalismo político?",
+      "answer": "Liberdade individual, igualdade perante a lei, propriedade privada, separação de poderes e limitação do poder do Estado."
+    }
+  ],
+  "revolucoes-liberais": [
+    {
+      "question": "Por que 1848 ficou conhecido como 'Primavera dos Povos'?",
+      "answer": "Porque foi uma série de revoluções que ocorreram simultaneamente em diversos países europeus, lideradas principalmente por liberais e nacionalistas."
+    },
+    {
+      "question": "Qual foi o papel da burguesia nas revoluções liberais?",
+      "answer": "A burguesia foi a principal classe social a apoiar e liderar as revoluções liberais, buscando maior participação política e reformas econômicas favoráveis aos seus interesses."
+    },
+    {
+      "question": "O que foi a Revolução de Julho de 1830 na França?",
+      "answer": "Uma revolta que derrubou o rei Carlos X e colocou no poder Luís Filipe, o 'Rei Burguês', estabelecendo uma monarquia constitucional mais liberal."
+    }
+  ],
+  "socialismos": [
+    {
+      "question": "Quais são as principais diferenças entre o socialismo utópico e o científico?",
+      "answer": "O socialismo utópico propunha modelos ideais de sociedade sem uma análise científica da história, enquanto o socialismo científico de Marx e Engels baseava-se no materialismo histórico e na análise da luta de classes."
+    },
+    {
+      "question": "Quando ocorreu a Comuna de Paris e qual sua importância?",
+      "answer": "Entre março e maio de 1871. Foi o primeiro governo operário da história, considerado por Marx como um exemplo prático de ditadura do proletariado."
+    },
+    {
+      "question": "Quais foram as principais obras de Karl Marx?",
+      "answer": "O Manifesto Comunista (1848, com Engels) e O Capital (1867), entre outras obras importantes."
+    }
+  ]
+}

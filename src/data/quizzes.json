@@ -1,0 +1,130 @@
+{
+  "napoleao": [
+    {
+      "question": "Qual título Napoleão adotou em 1804?",
+      "options": [
+        "Primeiro-Cônsul",
+        "Imperador dos Franceses",
+        "Rei da França",
+        "Ditador Vitalício"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qual batalha marcou a derrota definitiva de Napoleão?",
+      "options": [
+        "Batalha de Austerlitz",
+        "Batalha de Trafalgar",
+        "Batalha de Waterloo",
+        "Batalha de Borodino"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Onde Napoleão morreu exilado?",
+      "options": [
+        "Ilha de Elba",
+        "Ilha de Santa Helena",
+        "Córsega",
+        "Ilha de Malta"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "liberalismo": [
+    {
+      "question": "Qual destes pensadores é considerado um dos principais teóricos do liberalismo político?",
+      "options": [
+        "Thomas Hobbes",
+        "John Locke",
+        "Jean-Jacques Rousseau",
+        "Platão"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qual princípio econômico é fundamental para o liberalismo clássico?",
+      "options": [
+        "Intervenção estatal na economia",
+        "Planejamento econômico centralizado",
+        "Laissez-faire (não intervenção do Estado)",
+        "Protecionismo comercial"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Qual documento foi importante para o desenvolvimento do liberalismo inglês?",
+      "options": [
+        "Declaração dos Direitos do Homem e do Cidadão",
+        "Bill of Rights",
+        "Constituição de Cádiz",
+        "Código Napoleônico"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "revolucoes-liberais": [
+    {
+      "question": "Qual destes países NÃO foi diretamente afetado pelas revoluções de 1848?",
+      "options": [
+        "França",
+        "Estados Alemães",
+        "Império Austríaco",
+        "Rússia"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Qual foi o resultado mais comum das revoluções de 1848 na Europa?",
+      "options": [
+        "O estabelecimento de repúblicas democráticas",
+        "O triunfo completo das ideias liberais",
+        "A restauração dos regimes anteriores com algumas concessões",
+        "A vitória do socialismo"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Qual destas ideologias ganhou força durante as revoluções liberais do século XIX?",
+      "options": [
+        "Absolutismo",
+        "Nacionalismo",
+        "Fascismo",
+        "Fundamentalismo religioso"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "socialismos": [
+    {
+      "question": "Quem escreveu o 'Manifesto Comunista'?",
+      "options": [
+        "Karl Marx e Friedrich Engels",
+        "Robert Owen e Charles Fourier",
+        "Louis Blanc e Pierre-Joseph Proudhon",
+        "Lenin e Trotsky"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "O que Marx e Engels entendiam por 'ditadura do proletariado'?",
+      "options": [
+        "Um governo autoritário liderado por um único partido",
+        "O domínio político da classe operária após a revolução socialista",
+        "A eliminação de todas as classes sociais",
+        "A nacionalização imediata de todos os meios de produção"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qual destes NÃO foi um socialista utópico?",
+      "options": [
+        "Charles Fourier",
+        "Robert Owen",
+        "Saint-Simon",
+        "Friedrich Engels"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+}

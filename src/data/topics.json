@@ -1,0 +1,116 @@
+{
+  "topics": [
+    {
+      "id": "napoleao",
+      "title": "Napoleão Bonaparte",
+      "period": "1799-1815",
+      "summary": "Período que abrange a ascensão de Napoleão ao poder, o Império Napoleônico e suas campanhas militares.",
+      "subtopics": [
+        {
+          "id": "ascensao",
+          "title": "A Ascensão de Napoleão",
+          "content": "Explicação sobre como Napoleão chegou ao poder na França pós-Revolução."
+        },
+        {
+          "id": "imperio",
+          "title": "O Império Napoleônico",
+          "content": "Detalhes sobre a formação e administração do Império Francês sob Napoleão."
+        },
+        {
+          "id": "codigo",
+          "title": "Código Napoleônico",
+          "content": "O famoso código civil e suas implicações para a sociedade europeia."
+        },
+        {
+          "id": "queda",
+          "title": "A Queda de Napoleão",
+          "content": "Os eventos que levaram à derrota e exílio de Napoleão."
+        }
+      ]
+    },
+    {
+      "id": "liberalismo",
+      "title": "Liberalismo",
+      "period": "1789-1900",
+      "summary": "Corrente de pensamento político e econômico que defende a liberdade individual, a propriedade privada e a limitação do poder do Estado.",
+      "subtopics": [
+        {
+          "id": "origens",
+          "title": "Origens do Liberalismo",
+          "content": "As raízes filosóficas e contexto histórico do surgimento do liberalismo."
+        },
+        {
+          "id": "economico",
+          "title": "Liberalismo Econômico",
+          "content": "Princípios e teóricos do liberalismo econômico, como Adam Smith."
+        },
+        {
+          "id": "politico",
+          "title": "Liberalismo Político",
+          "content": "Ideias de liberdade, direitos individuais e governo representativo."
+        },
+        {
+          "id": "impacto",
+          "title": "Impacto do Liberalismo",
+          "content": "Como o liberalismo transformou sociedades europeias e americanas."
+        }
+      ]
+    },
+    {
+      "id": "revolucoes-liberais",
+      "title": "Revoluções Liberais",
+      "period": "1820-1848",
+      "summary": "Série de levantes e revoltas que ocorreram na Europa com o objetivo de implementar ideais liberais e nacionalistas.",
+      "subtopics": [
+        {
+          "id": "1820",
+          "title": "Revoluções de 1820",
+          "content": "Movimentos revolucionários em Portugal, Espanha e Itália."
+        },
+        {
+          "id": "1830",
+          "title": "Revoluções de 1830",
+          "content": "A Revolução de Julho na França e seus efeitos na Europa."
+        },
+        {
+          "id": "1848",
+          "title": "Primavera dos Povos (1848)",
+          "content": "A onda revolucionária que varreu a Europa em 1848."
+        },
+        {
+          "id": "consequencias",
+          "title": "Consequências das Revoluções",
+          "content": "Impactos políticos e sociais das revoluções liberais na Europa."
+        }
+      ]
+    },
+    {
+      "id": "socialismos",
+      "title": "Socialismos",
+      "period": "1830-1917",
+      "summary": "Conjunto de doutrinas políticas e econômicas que defendem a propriedade coletiva dos meios de produção.",
+      "subtopics": [
+        {
+          "id": "utopico",
+          "title": "Socialismo Utópico",
+          "content": "Primeiras ideias socialistas de Owen, Saint-Simon e Fourier."
+        },
+        {
+          "id": "cientifico",
+          "title": "Socialismo Científico",
+          "content": "Teorias de Marx e Engels sobre o materialismo histórico e a luta de classes."
+        },
+        {
+          "id": "comuna-paris",
+          "title": "Comuna de Paris",
+          "content": "O primeiro governo operário da história, sua formação e derrota."
+        },
+        {
+          "id": "revolucao-russa",
+          "title": "Revolução Russa",
+          "content": "O triunfo das ideias socialistas na Rússia em 1917."
+        }
+      ]
+    }
+  ]
+}
