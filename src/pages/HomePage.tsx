@@ -15,7 +15,7 @@ const HomePage = () => {
                 transition={{ duration: 0.5 }}
             >
                 <h1 className="text-3xl font-bold text-blue-800 mb-4">
-                    História - Preparação para Recuperação
+                    História - Preparação para Recuperação 2o ano Anglo
                 </h1>
 
                 <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">

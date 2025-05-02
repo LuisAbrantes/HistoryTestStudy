@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 interface TopicContentProps {
     topic: {
@@ -18,11 +19,39 @@ interface TopicContentProps {
         title: string;
         content: string;
     };
+    onNavigate?: (subtopicId: string) => void;
 }
 
-const TopicContent = ({ topic, subtopic }: TopicContentProps) => {
+const TopicContent = ({ topic, subtopic, onNavigate }: TopicContentProps) => {
     const [fontSize, setFontSize] = useState('normal');
     const [highlightMode, setHighlightMode] = useState(false);
+    const navigate = useNavigate();
+
+    // Function to handle navigation between subtopics
+    const handleNavigation = (direction: 'prev' | 'next') => {
+        const currentIndex = topic.subtopics.findIndex(
+            s => s.id === subtopic.id
+        );
+
+        if (direction === 'prev' && currentIndex > 0) {
+            const prevSubtopic = topic.subtopics[currentIndex - 1];
+            if (onNavigate) {
+                onNavigate(prevSubtopic.id);
+            } else {
+                navigate(`/${topic.id}/${prevSubtopic.id}`);
+            }
+        } else if (
+            direction === 'next' &&
+            currentIndex < topic.subtopics.length - 1
+        ) {
+            const nextSubtopic = topic.subtopics[currentIndex + 1];
+            if (onNavigate) {
+                onNavigate(nextSubtopic.id);
+            } else {
+                navigate(`/${topic.id}/${nextSubtopic.id}`);
+            }
+        }
+    };
 
     // Função para processar o conteúdo do subtópico e destacar termos importantes
     const processContent = (content: string) => {
@@ -259,10 +288,7 @@ const TopicContent = ({ topic, subtopic }: TopicContentProps) => {
                     {topic.subtopics.findIndex(s => s.id === subtopic.id) >
                     0 ? (
                         <button
-                            onClick={() => {
-                                // Navigation logic would go here
-                                // Could be implemented by the parent component
-                            }}
+                            onClick={() => handleNavigation('prev')}
                             className="flex items-center text-blue-600 hover:text-blue-800"
                         >
                             ← Anterior
@@ -274,10 +300,7 @@ const TopicContent = ({ topic, subtopic }: TopicContentProps) => {
                     {topic.subtopics.findIndex(s => s.id === subtopic.id) <
                     topic.subtopics.length - 1 ? (
                         <button
-                            onClick={() => {
-                                // Navigation logic would go here
-                                // Could be implemented by the parent component
-                            }}
+                            onClick={() => handleNavigation('next')}
                             className="flex items-center text-blue-600 hover:text-blue-800"
                         >
                             Próximo →

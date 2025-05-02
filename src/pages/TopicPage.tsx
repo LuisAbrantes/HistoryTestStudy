@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { useParams, useNavigate } from 'react-router-dom';
 import Flashcards from '../components/Flashcards';
 import Quiz from '../components/Quiz';
-import ExcalidrawMindMap from '../components/ExcalidrawMindMap';
 import TopicContent from '../components/TopicContent';
 import topicsData from '../data/topics.json';
 
@@ -14,7 +13,7 @@ const TopicPage = () => {
     }>();
     const navigate = useNavigate();
     const [activeTab, setActiveTab] = useState<
-        'content' | 'flashcards' | 'quiz' | 'mindmap'
+        'content' | 'flashcards' | 'quiz'
     >('content');
     const { topics } = topicsData;
 
@@ -43,8 +42,6 @@ const TopicPage = () => {
                 setActiveTab('quiz');
             } else if (e.key === 'c' || e.key === 'C') {
                 setActiveTab('content');
-            } else if (e.key === 'm' || e.key === 'M') {
-                setActiveTab('mindmap');
             } else if ((e.key === 'n' || e.key === 'N') && currentTopic) {
                 // Go to next subtopic
                 const currentIndex = currentTopic.subtopics.findIndex(
@@ -171,17 +168,6 @@ const TopicPage = () => {
                         >
                             Quiz (Q)
                         </motion.button>
-                        <motion.button
-                            className={`py-3 px-4 border-b-2 font-medium ${
-                                activeTab === 'mindmap'
-                                    ? 'border-blue-600 text-blue-600'
-                                    : 'border-transparent text-gray-500 hover:text-gray-700'
-                            }`}
-                            onClick={() => setActiveTab('mindmap')}
-                            whileTap={{ scale: 0.95 }}
-                        >
-                            Mapa Mental (M)
-                        </motion.button>
                     </div>
                 </div>
 
@@ -196,6 +182,9 @@ const TopicPage = () => {
                             <TopicContent
                                 topic={currentTopic}
                                 subtopic={currentSubtopic}
+                                onNavigate={subtopicId =>
+                                    navigate(`/${topicId}/${subtopicId}`)
+                                }
                             />
                         </motion.div>
                     )}
@@ -217,16 +206,6 @@ const TopicPage = () => {
                             transition={{ duration: 0.3 }}
                         >
                             <Quiz topicId={topicId} />
-                        </motion.div>
-                    )}
-
-                    {activeTab === 'mindmap' && (
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.3 }}
-                        >
-                            <ExcalidrawMindMap topicId={topicId!} />
                         </motion.div>
                     )}
                 </div>
