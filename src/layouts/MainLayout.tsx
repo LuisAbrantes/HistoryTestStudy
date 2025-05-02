@@ -253,8 +253,8 @@ const MainLayout = ({ children }: MainLayoutProps) => {
                 {/* Footer with print info */}
                 <footer className="mt-auto py-4 px-6 text-center text-sm text-gray-500 border-t print:hidden">
                     <p>
-                        História para Recuperação &copy;{' '}
-                        {new Date().getFullYear()}
+                        Feito por Luis Abrantes para meu amor, Amanda Marinho
+                        Massarioli 💛
                     </p>
                     <p className="hidden print:block mt-2">
                         Impresso em {new Date().toLocaleDateString()}
