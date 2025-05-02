@@ -254,14 +254,16 @@ const TopicPage = () => {
                         </div>
                     )}
 
-                    {activeTab === 'flashcards' && (
+                    {activeTab === 'flashcards' && topicId && (
                         <Flashcards topicId={topicId} />
                     )}
 
-                    {activeTab === 'quiz' && <Quiz topicId={topicId} />}
+                    {activeTab === 'quiz' && topicId && (
+                        <Quiz topicId={topicId} />
+                    )}
 
                     {activeTab === 'mindmap' && (
-                        <ExcalidrawMindMap topicId={topicId} />
+                        <ExcalidrawMindMap topicId={topicId!} />
                     )}
                 </div>
 

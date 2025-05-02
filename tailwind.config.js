@@ -1,21 +1,18 @@
+import typographyPlugin from '@tailwindcss/typography';
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-      typography: {
-        DEFAULT: {
-          css: {
-            maxWidth: 'none',
-          },
-        },
-      },
+    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+    theme: {
+        extend: {
+            typography: {
+                DEFAULT: {
+                    css: {
+                        maxWidth: 'none'
+                    }
+                }
+            }
+        }
     },
-  },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
-}
+    plugins: [typographyPlugin]
+};
