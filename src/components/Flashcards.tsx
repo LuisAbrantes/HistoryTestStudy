@@ -42,6 +42,14 @@ const Flashcards = ({ topicId }: FlashcardsProps) => {
     // Add keyboard navigation
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
+            // Only process if not in an input field
+            if (
+                e.target instanceof HTMLInputElement ||
+                e.target instanceof HTMLTextAreaElement
+            ) {
+                return;
+            }
+
             if (e.key === 'ArrowRight') nextCard();
             if (e.key === 'ArrowLeft') prevCard();
             if (e.key === ' ') setFlipped(!flipped);
@@ -74,34 +82,49 @@ const Flashcards = ({ topicId }: FlashcardsProps) => {
             </div>
 
             <div className="mx-auto max-w-xl">
-                <div className="relative h-64 sm:h-80 [perspective:1000px]">
+                <div
+                    className="relative h-64 sm:h-80"
+                    style={{ perspective: '1000px' }}
+                >
                     <motion.div
                         className="absolute w-full h-full cursor-pointer"
+                        onClick={() => setFlipped(!flipped)}
                         animate={{ rotateY: flipped ? 180 : 0 }}
                         transition={{ duration: 0.6 }}
-                        onClick={() => setFlipped(!flipped)}
+                        style={{
+                            transformStyle: 'preserve-3d'
+                        }}
                     >
                         {/* Front of card */}
-                        <div
-                            className={`absolute w-full h-full [backface-visibility:hidden] bg-white rounded-xl shadow-lg p-6 flex items-center justify-center ${
-                                flipped ? 'hidden' : ''
-                            }`}
+                        <motion.div
+                            className="absolute w-full h-full bg-white rounded-xl shadow-lg p-6 flex items-center justify-center"
+                            style={{
+                                backfaceVisibility: 'hidden',
+                                position: 'absolute',
+                                width: '100%',
+                                height: '100%'
+                            }}
                         >
                             <p className="text-xl text-center font-medium text-gray-800">
-                                {cards[currentIndex].question}
+                                {cards[currentIndex]?.question || 'Pergunta'}
                             </p>
-                        </div>
+                        </motion.div>
 
                         {/* Back of card */}
-                        <div
-                            className={`absolute w-full h-full [backface-visibility:hidden] bg-blue-50 rounded-xl shadow-lg p-6 flex items-center justify-center [transform:rotateY(180deg)] ${
-                                !flipped ? 'hidden' : ''
-                            }`}
+                        <motion.div
+                            className="absolute w-full h-full bg-blue-50 rounded-xl shadow-lg p-6 flex items-center justify-center"
+                            style={{
+                                backfaceVisibility: 'hidden',
+                                position: 'absolute',
+                                width: '100%',
+                                height: '100%',
+                                rotateY: 180
+                            }}
                         >
                             <p className="text-lg text-center text-gray-700">
-                                {cards[currentIndex].answer}
+                                {cards[currentIndex]?.answer || 'Resposta'}
                             </p>
-                        </div>
+                        </motion.div>
                     </motion.div>
                 </div>
 

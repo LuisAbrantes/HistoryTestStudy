@@ -4,7 +4,7 @@ import App from './App.tsx';
 import './index.css';
 
 // Add keyboard shortcut listener for the whole application
-document.addEventListener('keydown', e => {
+document.addEventListener('keydown', _e => {
     // Only handle global shortcuts here
     // Component-specific shortcuts are handled in their respective components
 });

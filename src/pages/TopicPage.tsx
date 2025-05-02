@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useParams, useNavigate } from 'react-router-dom';
 import Flashcards from '../components/Flashcards';
 import Quiz from '../components/Quiz';
 import ExcalidrawMindMap from '../components/ExcalidrawMindMap';
+import TopicContent from '../components/TopicContent';
 import topicsData from '../data/topics.json';
 
 const TopicPage = () => {
@@ -100,9 +101,14 @@ const TopicPage = () => {
             >
                 {/* Topic header */}
                 <div className="mb-6">
-                    <h1 className="text-3xl font-bold text-blue-800 mb-2">
+                    <motion.h1
+                        className="text-3xl font-bold text-blue-800 mb-2"
+                        initial={{ y: -20 }}
+                        animate={{ y: 0 }}
+                        transition={{ duration: 0.5, type: 'spring' }}
+                    >
                         {currentTopic.title}
-                    </h1>
+                    </motion.h1>
                     <p className="text-gray-600">
                         Período: {currentTopic.period}
                     </p>
@@ -111,7 +117,7 @@ const TopicPage = () => {
                 {/* Subtopic navigation */}
                 <div className="flex mb-6 overflow-x-auto pb-2 -mx-2 px-2">
                     {currentTopic.subtopics.map((subtopic, index) => (
-                        <button
+                        <motion.button
                             key={subtopic.id}
                             className={`flex-shrink-0 px-4 py-2 rounded-md mr-2 ${
                                 subtopic.id === currentSubtopic.id
@@ -121,162 +127,125 @@ const TopicPage = () => {
                             onClick={() =>
                                 navigate(`/${topicId}/${subtopic.id}`)
                             }
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
                         >
                             {index + 1}. {subtopic.title}
-                        </button>
+                        </motion.button>
                     ))}
                 </div>
 
                 {/* Content tabs */}
                 <div className="mb-6 border-b border-gray-200">
                     <div className="flex space-x-4">
-                        <button
+                        <motion.button
                             className={`py-3 px-4 border-b-2 font-medium ${
                                 activeTab === 'content'
                                     ? 'border-blue-600 text-blue-600'
                                     : 'border-transparent text-gray-500 hover:text-gray-700'
                             }`}
                             onClick={() => setActiveTab('content')}
+                            whileTap={{ scale: 0.95 }}
                         >
                             Conteúdo (C)
-                        </button>
-                        <button
+                        </motion.button>
+                        <motion.button
                             className={`py-3 px-4 border-b-2 font-medium ${
                                 activeTab === 'flashcards'
                                     ? 'border-blue-600 text-blue-600'
                                     : 'border-transparent text-gray-500 hover:text-gray-700'
                             }`}
                             onClick={() => setActiveTab('flashcards')}
+                            whileTap={{ scale: 0.95 }}
                         >
                             Flashcards (F)
-                        </button>
-                        <button
+                        </motion.button>
+                        <motion.button
                             className={`py-3 px-4 border-b-2 font-medium ${
                                 activeTab === 'quiz'
                                     ? 'border-blue-600 text-blue-600'
                                     : 'border-transparent text-gray-500 hover:text-gray-700'
                             }`}
                             onClick={() => setActiveTab('quiz')}
+                            whileTap={{ scale: 0.95 }}
                         >
                             Quiz (Q)
-                        </button>
-                        <button
+                        </motion.button>
+                        <motion.button
                             className={`py-3 px-4 border-b-2 font-medium ${
                                 activeTab === 'mindmap'
                                     ? 'border-blue-600 text-blue-600'
                                     : 'border-transparent text-gray-500 hover:text-gray-700'
                             }`}
                             onClick={() => setActiveTab('mindmap')}
+                            whileTap={{ scale: 0.95 }}
                         >
                             Mapa Mental (M)
-                        </button>
+                        </motion.button>
                     </div>
                 </div>
 
                 {/* Tab content */}
                 <div className="mb-10">
                     {activeTab === 'content' && (
-                        <div className="bg-white rounded-lg shadow-md p-6">
-                            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                                {currentSubtopic.title}
-                            </h2>
-
-                            {/* This would be replaced with actual content */}
-                            <div className="prose prose-blue max-w-none">
-                                <p className="mb-4">
-                                    {currentSubtopic.content ||
-                                        'Conteúdo detalhado virá aqui. Esta é apenas uma versão de demonstração da plataforma.'}
-                                </p>
-
-                                <p className="text-gray-600 italic">
-                                    Conteúdo completo e atualizado será
-                                    adicionado posteriormente.
-                                </p>
-
-                                {/* Navigation buttons */}
-                                <div className="flex justify-between mt-8 pt-4 border-t border-gray-100">
-                                    {currentTopic.subtopics.findIndex(
-                                        s => s.id === currentSubtopic.id
-                                    ) > 0 ? (
-                                        <button
-                                            onClick={() => {
-                                                const currentIndex =
-                                                    currentTopic.subtopics.findIndex(
-                                                        s =>
-                                                            s.id ===
-                                                            currentSubtopic.id
-                                                    );
-                                                navigate(
-                                                    `/${topicId}/${
-                                                        currentTopic.subtopics[
-                                                            currentIndex - 1
-                                                        ].id
-                                                    }`
-                                                );
-                                            }}
-                                            className="flex items-center text-blue-600 hover:text-blue-800"
-                                        >
-                                            ← Anterior
-                                        </button>
-                                    ) : (
-                                        <div></div>
-                                    )}
-
-                                    {currentTopic.subtopics.findIndex(
-                                        s => s.id === currentSubtopic.id
-                                    ) <
-                                    currentTopic.subtopics.length - 1 ? (
-                                        <button
-                                            onClick={() => {
-                                                const currentIndex =
-                                                    currentTopic.subtopics.findIndex(
-                                                        s =>
-                                                            s.id ===
-                                                            currentSubtopic.id
-                                                    );
-                                                navigate(
-                                                    `/${topicId}/${
-                                                        currentTopic.subtopics[
-                                                            currentIndex + 1
-                                                        ].id
-                                                    }`
-                                                );
-                                            }}
-                                            className="flex items-center text-blue-600 hover:text-blue-800"
-                                        >
-                                            Próximo →
-                                        </button>
-                                    ) : (
-                                        <div></div>
-                                    )}
-                                </div>
-                            </div>
-                        </div>
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <TopicContent
+                                topic={currentTopic}
+                                subtopic={currentSubtopic}
+                            />
+                        </motion.div>
                     )}
 
                     {activeTab === 'flashcards' && topicId && (
-                        <Flashcards topicId={topicId} />
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <Flashcards topicId={topicId} />
+                        </motion.div>
                     )}
 
                     {activeTab === 'quiz' && topicId && (
-                        <Quiz topicId={topicId} />
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <Quiz topicId={topicId} />
+                        </motion.div>
                     )}
 
                     {activeTab === 'mindmap' && (
-                        <ExcalidrawMindMap topicId={topicId!} />
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <ExcalidrawMindMap topicId={topicId!} />
+                        </motion.div>
                     )}
                 </div>
 
                 {/* Topic summary */}
                 {activeTab === 'content' && (
-                    <div className="bg-blue-50 rounded-lg p-4 border border-blue-100">
+                    <motion.div
+                        className="bg-blue-50 rounded-lg p-4 border border-blue-100"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.2 }}
+                    >
                         <h3 className="font-medium text-blue-800 mb-2">
                             Sumário do Tópico
                         </h3>
                         <p className="text-blue-700 text-sm">
                             {currentTopic.summary}
                         </p>
-                    </div>
+                    </motion.div>
                 )}
             </motion.div>
         </div>

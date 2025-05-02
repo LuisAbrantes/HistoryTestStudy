@@ -1,58 +1,170 @@
 {
-  "napoleao": [
-    {
-      "question": "Quando Napoleão Bonaparte assumiu o poder na França?",
-      "answer": "Em 9 de novembro de 1799 (18 de Brumário), através de um golpe de estado."
-    },
-    {
-      "question": "O que foi o Bloqueio Continental?",
-      "answer": "Política econômica imposta por Napoleão que proibia os países europeus de comercializarem com a Grã-Bretanha, visando isolá-la economicamente."
-    },
-    {
-      "question": "Qual foi o principal legado jurídico de Napoleão?",
-      "answer": "O Código Civil Napoleônico (1804), que sistematizou as leis civis e garantiu conquistas da Revolução Francesa como a igualdade perante a lei."
-    }
-  ],
-  "liberalismo": [
-    {
-      "question": "Quem escreveu 'A Riqueza das Nações', obra fundamental do liberalismo econômico?",
-      "answer": "Adam Smith, em 1776."
-    },
-    {
-      "question": "O que significa o conceito de 'mão invisível' proposto por Adam Smith?",
-      "answer": "A ideia de que o mercado se autorregula através da busca do interesse individual, que acaba promovendo o bem coletivo sem necessidade de intervenção estatal."
-    },
-    {
-      "question": "Quais são os princípios fundamentais do liberalismo político?",
-      "answer": "Liberdade individual, igualdade perante a lei, propriedade privada, separação de poderes e limitação do poder do Estado."
-    }
-  ],
-  "revolucoes-liberais": [
-    {
-      "question": "Por que 1848 ficou conhecido como 'Primavera dos Povos'?",
-      "answer": "Porque foi uma série de revoluções que ocorreram simultaneamente em diversos países europeus, lideradas principalmente por liberais e nacionalistas."
-    },
-    {
-      "question": "Qual foi o papel da burguesia nas revoluções liberais?",
-      "answer": "A burguesia foi a principal classe social a apoiar e liderar as revoluções liberais, buscando maior participação política e reformas econômicas favoráveis aos seus interesses."
-    },
-    {
-      "question": "O que foi a Revolução de Julho de 1830 na França?",
-      "answer": "Uma revolta que derrubou o rei Carlos X e colocou no poder Luís Filipe, o 'Rei Burguês', estabelecendo uma monarquia constitucional mais liberal."
-    }
-  ],
-  "socialismos": [
-    {
-      "question": "Quais são as principais diferenças entre o socialismo utópico e o científico?",
-      "answer": "O socialismo utópico propunha modelos ideais de sociedade sem uma análise científica da história, enquanto o socialismo científico de Marx e Engels baseava-se no materialismo histórico e na análise da luta de classes."
-    },
-    {
-      "question": "Quando ocorreu a Comuna de Paris e qual sua importância?",
-      "answer": "Entre março e maio de 1871. Foi o primeiro governo operário da história, considerado por Marx como um exemplo prático de ditadura do proletariado."
-    },
-    {
-      "question": "Quais foram as principais obras de Karl Marx?",
-      "answer": "O Manifesto Comunista (1848, com Engels) e O Capital (1867), entre outras obras importantes."
-    }
-  ]
+    "napoleao": [
+        {
+            "question": "Quando Napoleão Bonaparte assumiu o poder na França?",
+            "answer": "Em 9 de novembro de 1799 (18 de Brumário), através de um golpe de estado."
+        },
+        {
+            "question": "O que foi o Bloqueio Continental?",
+            "answer": "Política econômica imposta por Napoleão que proibia os países europeus de comercializarem com a Grã-Bretanha, visando isolá-la economicamente e aumentar o lucro francês."
+        },
+        {
+            "question": "Qual foi o principal legado jurídico de Napoleão?",
+            "answer": "O Código Civil Napoleônico (1804), que sistematizou as leis civis e garantiu conquistas da Revolução Francesa como a igualdade perante a lei."
+        },
+        {
+            "question": "Quais foram as principais medidas econômicas de Napoleão?",
+            "answer": "Criação do Banco da França (empréstimos e ajuda financeira), incentivo aos portos para aumentar exportações, protecionismo alfandegário e bloqueio continental."
+        },
+        {
+            "question": "Qual país serviu como elo para quebrar o bloqueio continental?",
+            "answer": "Portugal, que estava rico e mantinha relações comerciais com a Inglaterra, o que levou à fuga da família real para o Brasil em 1808."
+        },
+        {
+            "question": "O que foi o Congresso de Viena (1814-1815)?",
+            "answer": "Uma reunião dos países que lutaram contra Napoleão para reorganizar as fronteiras políticas da Europa e restaurar as monarquias nacionais após sua derrota."
+        },
+        {
+            "question": "O que foi a Santa Aliança de 1815?",
+            "answer": "Uma coalizão militar das monarquias restauradas (Alemanha, Rússia e Áustria) formada após a queda de Napoleão para combater movimentos revolucionários."
+        },
+        {
+            "question": "Que governos foram estabelecidos após o Congresso de Viena?",
+            "answer": "Foram restauradas monarquias absolutistas na maioria dos países europeus, seguindo o princípio da legitimidade dinástica, com governos conservadores e autoritários."
+        },
+        {
+            "question": "Quais foram as consequências da fuga da Família Real portuguesa para o Brasil?",
+            "answer": "Abertura dos portos brasileiros às nações amigas (principalmente Inglaterra), elevação do Brasil a Reino Unido de Portugal, início do processo que levaria à independência."
+        },
+        {
+            "question": "Por que a invasão da Rússia (1812) foi um grande erro de Napoleão?",
+            "answer": "O rigoroso inverno russo, a tática de terra arrasada dos russos e as longas linhas de abastecimento levaram à perda de aproximadamente 500 mil soldados, enfraquecendo decisivamente o exército napoleônico."
+        }
+    ],
+    "liberalismo": [
+        {
+            "question": "Quem escreveu 'A Riqueza das Nações', obra fundamental do liberalismo econômico?",
+            "answer": "Adam Smith, em 1776."
+        },
+        {
+            "question": "O que significa o conceito de 'mão invisível' proposto por Adam Smith?",
+            "answer": "A ideia de que o mercado se autorregula através da busca do interesse individual, que acaba promovendo o bem coletivo sem necessidade de intervenção estatal."
+        },
+        {
+            "question": "Quais são os princípios fundamentais do liberalismo político?",
+            "answer": "Liberdade individual, igualdade perante a lei, propriedade privada, separação de poderes e limitação do poder do Estado."
+        },
+        {
+            "question": "Qual o contexto social em que surgem as críticas ao liberalismo?",
+            "answer": "Código Civil Napoleônico: princípios liberais com restrições às liberdades reais (sindicatos e greves); conflito entre empreendedores (minoria com poder econômico) e trabalhadores; processo de proletarização."
+        },
+        {
+            "question": "O que foi o socialismo utópico?",
+            "answer": "Uma corrente socialista que propunha acordo entre as classes sociais, considerada imaginável ou irreal, baseada na construção de modelos sociais ideais sem uma análise científica da história."
+        },
+        {
+            "question": "O que Charles Fourier propunha no socialismo utópico?",
+            "answer": "Fourier propunha o resgate ao retorno à natureza e à construção dos falanstérios - comunidades agroindustriais autônomas, com propriedade coletiva e inexistência de dinheiro."
+        },
+        {
+            "question": "O que é o socialismo científico?",
+            "answer": "Corrente que enfatiza os meios para que a sociedade alcance uma 'nova sociedade', baseando-se no estudo racional e metódico da história, identificação de forças sociais e entendimento das mudanças sociais."
+        },
+        {
+            "question": "Quais são as principais diferenças entre liberalismo político e liberalismo econômico?",
+            "answer": "O liberalismo político defende liberdades civis, constituições, parlamentos e limites ao poder do Estado, enquanto o liberalismo econômico defende a livre iniciativa, livre mercado e não intervenção do Estado na economia."
+        },
+        {
+            "question": "Como o liberalismo se relaciona com o capitalismo industrial?",
+            "answer": "O liberalismo econômico forneceu as bases teóricas e políticas para o desenvolvimento do capitalismo industrial, defendendo a liberdade de comércio, a propriedade privada e a não intervenção estatal na economia."
+        },
+        {
+            "question": "Por que John Locke é considerado importante para o liberalismo?",
+            "answer": "Locke desenvolveu teorias sobre direitos naturais (vida, liberdade e propriedade), contrato social e limitação do poder do Estado, estabelecendo as bases filosóficas do liberalismo político."
+        }
+    ],
+    "revolucoes-liberais": [
+        {
+            "question": "Por que 1848 ficou conhecido como 'Primavera dos Povos'?",
+            "answer": "Porque foi uma série de revoluções que ocorreram simultaneamente em diversos países europeus, principalmente lideradas por liberais e nacionalistas contra os regimes absolutistas."
+        },
+        {
+            "question": "Qual foi o papel da burguesia nas revoluções liberais?",
+            "answer": "A burguesia foi a principal classe social a apoiar e liderar as revoluções liberais, buscando maior participação política e reformas econômicas favoráveis aos seus interesses."
+        },
+        {
+            "question": "O que foi a Revolução de 1830 na França (Jornadas Gloriosas)?",
+            "answer": "Uma revolta que derrubou o rei Carlos X e colocou no poder Luís Filipe, o 'Rei Burguês', estabelecendo uma monarquia constitucional mais liberal."
+        },
+        {
+            "question": "Quais foram as principais características do reinado de Luís XVIII (1815-1824)?",
+            "answer": "Declaração dos direitos, ampliação do direito ao voto (censitário) e gradual tentativa de restaurar o absolutismo monárquico."
+        },
+        {
+            "question": "Quais foram as principais medidas de Carlos X (1824-1830)?",
+            "answer": "Ampliou o controle político com censura, deu à igreja maior poder na educação, indenizou nobres que perderam terras durante a Revolução Francesa e tentou limitar o poder dos liberais burgueses nas eleições de 1830."
+        },
+        {
+            "question": "Como foi o governo de Luís Filipe (1830-1848), o 'rei burguês'?",
+            "answer": "Observava o parlamento, criou leis e impostos favoráveis à burguesia, estimulou a industrialização, o Banco da França ajudou na compra de máquinas, mas manteve restrição de direitos aos trabalhadores."
+        },
+        {
+            "question": "Quais eram as principais demandas do movimento revolucionário de 1848?",
+            "answer": "Ampliação da participação política, criação de parlamentos representativos, elaboração de constituições escritas e busca por independência nacional, unindo ideias de liberalismo e nacionalismo."
+        },
+        {
+            "question": "Qual foi a importância das 'Ordenanças de Julho' para a Revolução de 1830?",
+            "answer": "As Ordenanças foram uma série de decretos autoritários emitidos por Carlos X que limitavam a liberdade de imprensa, dissolviam a câmara recém-eleita e limitavam o direito de voto, sendo o estopim direto para a revolução."
+        },
+        {
+            "question": "Como as revoluções de 1848 diferiram das revoluções anteriores na Europa?",
+            "answer": "Diferente das anteriores, as revoluções de 1848 tiveram forte participação operária, com reivindicações sociais que iam além das demandas políticas burguesas, marcando o início da autonomia política do proletariado."
+        },
+        {
+            "question": "Por que a maioria das revoluções de 1848 fracassou em seus objetivos iniciais?",
+            "answer": "Devido à divisão entre liberais moderados e radicais, entre burgueses e operários, permitindo que as forças conservadoras se reorganizassem e reprimissem os movimentos revolucionários."
+        }
+    ],
+    "socialismos": [
+        {
+            "question": "Quais são as principais diferenças entre o socialismo utópico e o científico?",
+            "answer": "O socialismo utópico propunha modelos ideais de sociedade sem análise científica da história, enquanto o socialismo científico de Marx e Engels baseava-se no materialismo histórico e na análise da luta de classes."
+        },
+        {
+            "question": "Quando ocorreu a Comuna de Paris e qual sua importância?",
+            "answer": "Entre março e maio de 1871. Foi o primeiro governo operário da história, considerado por Marx como um exemplo prático de ditadura do proletariado."
+        },
+        {
+            "question": "Quais foram as principais obras de Karl Marx?",
+            "answer": "O Manifesto Comunista (1848, com Engels) e O Capital (1867), entre outras obras importantes."
+        },
+        {
+            "question": "Quais foram as principais medidas implementadas pela Comuna de Paris?",
+            "answer": "Substituição do exército pelo armamento do povo, separação entre igreja e estado, entrega de fábricas abandonadas às cooperativas operárias, limite salarial para funcionários públicos, redução da jornada de trabalho, eleições nas fábricas e extinção da 'independência' do poder judiciário."
+        },
+        {
+            "question": "Qual foi a importância dos militares na Comuna de Paris?",
+            "answer": "Os militares participaram maciçamente na Comuna de Paris e tiveram importância central na luta dos communards."
+        },
+        {
+            "question": "O que a Comuna de Paris representou para o movimento socialista?",
+            "answer": "Foi herdeira das tradições revolucionárias francesas, um governo marcado pelas ideias anarquistas e marxistas, resultando na criação de um governo autônomo na cidade com adoção da bandeira vermelha."
+        },
+        {
+            "question": "Por que a Segunda República Francesa foi abolida?",
+            "answer": "A Segunda República Francesa foi abolida em maio de 1851, após uma curta existência, quando Luís Napoleão Bonaparte deu um golpe de estado e se proclamou imperador como Napoleão III."
+        },
+        {
+            "question": "O que é o materialismo histórico proposto por Marx?",
+            "answer": "É uma teoria que analisa o desenvolvimento das sociedades a partir das condições materiais de produção, considerando que as relações econômicas determinam a estrutura social, política e ideológica da sociedade."
+        },
+        {
+            "question": "Quem foi Robert Owen e qual sua contribuição para o socialismo?",
+            "answer": "Owen foi um industrial e reformador social britânico que criou comunidades modelo para seus trabalhadores, defendendo melhores condições de trabalho, educação e cooperativismo como forma de superar os problemas sociais do capitalismo."
+        },
+        {
+            "question": "Como a Comuna de Paris foi derrotada?",
+            "answer": "Foi brutalmente reprimida pelo exército regular francês em maio de 1871, com apoio da Prússia. A Semana Sangrenta resultou em aproximadamente 20 mil mortos e milhares de prisões e deportações de comunardos."
+        }
+    ]
 }

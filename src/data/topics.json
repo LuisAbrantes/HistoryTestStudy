@@ -1,116 +1,116 @@
 {
-  "topics": [
-    {
-      "id": "napoleao",
-      "title": "Napoleão Bonaparte",
-      "period": "1799-1815",
-      "summary": "Período que abrange a ascensão de Napoleão ao poder, o Império Napoleônico e suas campanhas militares.",
-      "subtopics": [
+    "topics": [
         {
-          "id": "ascensao",
-          "title": "A Ascensão de Napoleão",
-          "content": "Explicação sobre como Napoleão chegou ao poder na França pós-Revolução."
+            "id": "napoleao",
+            "title": "Napoleão Bonaparte",
+            "period": "1799-1815",
+            "summary": "Período que abrange a ascensão de Napoleão ao poder, o Império Napoleônico, suas medidas econômicas e políticas, e sua queda.",
+            "subtopics": [
+                {
+                    "id": "ascensao",
+                    "title": "A Ascensão de Napoleão",
+                    "content": "Napoleão Bonaparte chegou ao poder na França pós-Revolução através do golpe de 18 de Brumário em 9 de novembro de 1799. Seu governo foi marcado por medidas que favoreciam a burguesia, com características liberais na economia, mas com autoridade centralizada no âmbito político."
+                },
+                {
+                    "id": "imperio",
+                    "title": "Medidas Econômicas e Sociais",
+                    "content": "As principais medidas econômicas de Napoleão incluíram: 1) Criação do Banco da França, que fornecia empréstimos e ajuda financeira para burgueses, indústrias e agricultores, aumentando a produção; 2) Incentivo aos portos para aumentar as exportações; 3) Estabelecimento de políticas protecionistas, incluindo o Bloqueio Continental, que tentava impedir produtos ingleses de entrarem no continente europeu. O objetivo era reduzir o lucro inglês e aumentar o lucro francês. Portugal, que estava rico na época, servia como elo para burlar o bloqueio continental, o que resultou na fuga da família real portuguesa para o Brasil em 1808. Outros países como a Rússia também resistiram ao bloqueio, contribuindo para o enfraquecimento de Napoleão após a desastrosa invasão francesa à Rússia."
+                },
+                {
+                    "id": "resistencias",
+                    "title": "Resistências e Educação",
+                    "content": "A Espanha representou um importante foco de resistência ao domínio napoleônico, principalmente após a deposição do rei espanhol. No campo educacional, Napoleão promoveu a criação de escolas para formar mão de obra qualificada, estimular debates intelectuais e produção de ideias e livros. Estas iniciativas educacionais fizeram parte do legado napoleônico, junto com o famoso Código Civil, que incorporava princípios liberais, embora com certas restrições às liberdades, como proibições a sindicatos e greves."
+                },
+                {
+                    "id": "queda",
+                    "title": "A Queda de Napoleão e Restauração",
+                    "content": "A perda de poder de Napoleão culminou com sua derrota definitiva e o Congresso de Viena (1814-1815), que reuniu os países que lutaram contra ele para reorganizar as fronteiras políticas da Europa e restaurar as monarquias nacionais. Após a queda de Napoleão, foi formada a Santa Aliança (1815), uma coalizão militar das monarquias restauradas que incluía Alemanha, Rússia e Áustria. Essa aliança visava combater movimentos revolucionários e garantir a estabilidade dos regimes monárquicos europeus."
+                }
+            ]
         },
         {
-          "id": "imperio",
-          "title": "O Império Napoleônico",
-          "content": "Detalhes sobre a formação e administração do Império Francês sob Napoleão."
+            "id": "liberalismo",
+            "title": "Liberalismo",
+            "period": "1789-1900",
+            "summary": "Corrente de pensamento político e econômico que defende a liberdade individual, a propriedade privada e a limitação do poder do Estado, incluindo suas vertentes e críticas.",
+            "subtopics": [
+                {
+                    "id": "origens",
+                    "title": "Contexto do Liberalismo",
+                    "content": "O liberalismo se desenvolveu em um contexto marcado pelas contradições do Código Civil Napoleônico, que, apesar de incorporar princípios liberais, impunha restrições às liberdades reais, como proibições a sindicatos e greves. Socialmente, esse período caracterizava-se pela crescente tensão entre empreendedores (minoria com poder econômico) e trabalhadores, além do processo de proletarização, que demonstrava as limitações da ideia de meritocracia propagada pela burguesia."
+                },
+                {
+                    "id": "economico",
+                    "title": "Liberalismo Econômico",
+                    "content": "O liberalismo econômico, representado principalmente por Adam Smith em sua obra 'A Riqueza das Nações' (1776), defendia o princípio do laissez-faire (não intervenção do Estado na economia). Segundo Smith, a 'mão invisível' do mercado poderia regular as relações econômicas, pois a busca do interesse individual acabaria promovendo o bem coletivo sem necessidade de intervenção estatal. Esta doutrina favorecia os interesses da burguesia ascendente e se opunha ao mercantilismo e às práticas econômicas do Antigo Regime."
+                },
+                {
+                    "id": "politico",
+                    "title": "Liberalismo Político",
+                    "content": "O liberalismo político defendia a liberdade individual, a igualdade perante a lei, a propriedade privada, a separação de poderes e a limitação do poder do Estado. Baseava-se nas ideias de pensadores como John Locke, que argumentava que o governo deveria proteger os direitos naturais dos indivíduos. Esses princípios inspiraram movimentos revolucionários como a Revolução Francesa e as subsequentes revoluções liberais do século XIX."
+                },
+                {
+                    "id": "criticas",
+                    "title": "Críticas e Socialismo",
+                    "content": "As críticas ao individualismo liberal e à crescente desigualdade socioeconômica levaram ao desenvolvimento de ideias socialistas. O socialismo utópico, representado por pensadores como Charles Fourier, propunha um acordo entre as classes sociais e a construção de modelos sociais alternativos, como os falanstérios - comunidades agroindustriais autônomas com propriedade coletiva e sem uso de dinheiro. Já o socialismo científico, desenvolvido posteriormente por Marx e Engels, enfatizava o estudo racional e metódico da história, a identificação de forças sociais e o entendimento das mudanças sociais como base para transformar a sociedade."
+                }
+            ]
         },
         {
-          "id": "codigo",
-          "title": "Código Napoleônico",
-          "content": "O famoso código civil e suas implicações para a sociedade europeia."
+            "id": "revolucoes-liberais",
+            "title": "Revoluções Liberais",
+            "period": "1820-1848",
+            "summary": "Série de levantes e revoltas que ocorreram na Europa com o objetivo de implementar ideais liberais e nacionalistas, incluindo as revoluções de 1830 e 1848.",
+            "subtopics": [
+                {
+                    "id": "restauracao",
+                    "title": "Período da Restauração",
+                    "content": "Após a queda de Napoleão e o Congresso de Viena, houve uma tentativa de restabelecer as fronteiras europeias e restaurar as monarquias. Na França, Luís XVIII (1815-1824) ampliou o direito ao voto (embora ainda censitário) e declarou direitos civis, mas gradualmente tentou retornar ao absolutismo monárquico. Seu sucessor, Carlos X (1824-1830), intensificou essa tendência, ampliando o controle político através da censura, dando à Igreja maior poder na educação, indenizando nobres que perderam suas terras durante a Revolução Francesa e tentando limitar o poder dos liberais burgueses nas eleições de 1830."
+                },
+                {
+                    "id": "1830",
+                    "title": "Revolução de 1830",
+                    "content": "As medidas restritivas de Carlos X provocaram a Revolução de 1830, também conhecida como 'Jornadas Gloriosas'. Este movimento resultou na deposição de Carlos X e na instalação de um regime monárquico moderado sob Luís Filipe (1830-1848), conhecido como o 'rei burguês'. Luís Filipe observava o parlamento, criou leis e impostos favoráveis à burguesia e estimulou a industrialização. O Banco da França ajudou na compra de máquinas e expansão industrial, mas o novo regime manteve restrições de direitos aos trabalhadores. Estimulada pelo exemplo francês, inúmeras agitações sociais e políticas ocorreram em outros países europeus."
+                },
+                {
+                    "id": "1848",
+                    "title": "Primavera dos Povos (1848)",
+                    "content": "Entre 1830 e 1848, cresceu na França a insatisfação das massas proletárias, gerando consequências como a radicalização das propostas liberais, o crescente republicanismo, a defesa do voto universal e a demanda por maior participação nos rumos do governo. As propostas socialistas ganhavam força entre os trabalhadores. Em 1848, eclodiu a chamada 'Primavera dos Povos', iniciando-se na Áustria com reivindicações políticas dos oprimidos e espalhando-se rapidamente pela Europa. Era um movimento contra os regimes absolutistas e as imposições do Congresso de Viena, reunindo liberalismo e nacionalismo como principais bandeiras: ampliação da participação política, criação de parlamentos representativos, elaboração de constituições escritas e busca por independência nacional."
+                },
+                {
+                    "id": "consequencias",
+                    "title": "Consequências e Transformações",
+                    "content": "Após uma curta existência, a Segunda República Francesa, estabelecida em 1848, foi abolida em maio de 1851. O movimento revolucionário de 1848 representou um divisor de águas: se inicialmente a burguesia e as ideias liberais foram os condutores da revolução, a participação dos operários e novas ideias sociais abriram caminho para novos movimentos revolucionários. Esse período marcou uma transformação nas lutas sociais europeias, preparando terreno para experiências como a Comuna de Paris, que viria a ocorrer em 1871."
+                }
+            ]
         },
         {
-          "id": "queda",
-          "title": "A Queda de Napoleão",
-          "content": "Os eventos que levaram à derrota e exílio de Napoleão."
+            "id": "socialismos",
+            "title": "Socialismos",
+            "period": "1830-1917",
+            "summary": "Conjunto de doutrinas políticas e econômicas que defendem a propriedade coletiva dos meios de produção, destacando-se o socialismo utópico, o científico e experiências como a Comuna de Paris.",
+            "subtopics": [
+                {
+                    "id": "utopico",
+                    "title": "Socialismo Utópico",
+                    "content": "O socialismo utópico surgiu como crítica ao individualismo e às desigualdades geradas pelo sistema capitalista liberal. Seus principais representantes, como Robert Owen, Saint-Simon e Charles Fourier, propunham modelos ideais de sociedade sem uma análise científica da história. Fourier, em particular, defendia o resgate ao retorno à natureza e a construção dos falanstérios - comunidades agroindustriais autônomas, com propriedade coletiva e sem uso de dinheiro. Essas propostas eram consideradas utópicas por muitos, pois buscavam uma harmonia entre classes sociais em um momento de intenso conflito entre burguesia e proletariado."
+                },
+                {
+                    "id": "cientifico",
+                    "title": "Socialismo Científico",
+                    "content": "O socialismo científico, desenvolvido por Karl Marx e Friedrich Engels, enfatizava os meios para que a sociedade alcançasse uma 'nova sociedade'. Diferentemente do socialismo utópico, baseava-se no estudo racional e metódico da história, identificação de forças sociais e entendimento das mudanças sociais e suas consequências. As principais obras de Marx incluem 'O Manifesto Comunista' (1848, escrito com Engels) e 'O Capital' (1867). Na visão marxista, a história é movida pela luta de classes, e a classe trabalhadora (proletariado) seria responsável por derrubar o capitalismo através de uma revolução, estabelecendo uma sociedade sem classes após um período de transição chamado 'ditadura do proletariado'."
+                },
+                {
+                    "id": "comuna-paris",
+                    "title": "Comuna de Paris",
+                    "content": "A Comuna de Paris ocorreu entre março e maio de 1871 e foi considerada o primeiro governo operário da história. Foi herdeira das tradições revolucionárias francesas e marcada pelas ideias anarquistas e marxistas, resultando na criação de um governo autônomo na cidade de Paris. Entre suas principais medidas destacam-se: substituição do exército permanente pelo armamento geral do povo; separação entre igreja e estado; entrega das fábricas abandonadas ou paralisadas às cooperativas operárias; remuneração dos funcionários públicos não superior ao salário normal dos operários; redução da jornada de trabalho; eleições de gerentes nas fábricas pelos trabalhadores; e extinção da 'independência' do poder judiciário, sujeitando seus funcionários à eleição popular."
+                },
+                {
+                    "id": "legado",
+                    "title": "Legado e Importância",
+                    "content": "Os militares tiveram participação maciça na Comuna de Paris e importância central na luta dos communards. Para Marx, a Comuna representou um exemplo prático de ditadura do proletariado. Embora tenha sido brutalmente reprimida após apenas 72 dias, a experiência da Comuna influenciou profundamente o pensamento socialista posterior e serviu como inspiração para movimentos revolucionários do século XX, incluindo a Revolução Russa de 1917. O legado da Comuna demonstrou a possibilidade concreta de os trabalhadores assumirem o poder político e implementarem medidas sociais radicais, simbolizadas pela adoção da bandeira vermelha como símbolo do movimento operário internacional."
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "liberalismo",
-      "title": "Liberalismo",
-      "period": "1789-1900",
-      "summary": "Corrente de pensamento político e econômico que defende a liberdade individual, a propriedade privada e a limitação do poder do Estado.",
-      "subtopics": [
-        {
-          "id": "origens",
-          "title": "Origens do Liberalismo",
-          "content": "As raízes filosóficas e contexto histórico do surgimento do liberalismo."
-        },
-        {
-          "id": "economico",
-          "title": "Liberalismo Econômico",
-          "content": "Princípios e teóricos do liberalismo econômico, como Adam Smith."
-        },
-        {
-          "id": "politico",
-          "title": "Liberalismo Político",
-          "content": "Ideias de liberdade, direitos individuais e governo representativo."
-        },
-        {
-          "id": "impacto",
-          "title": "Impacto do Liberalismo",
-          "content": "Como o liberalismo transformou sociedades europeias e americanas."
-        }
-      ]
-    },
-    {
-      "id": "revolucoes-liberais",
-      "title": "Revoluções Liberais",
-      "period": "1820-1848",
-      "summary": "Série de levantes e revoltas que ocorreram na Europa com o objetivo de implementar ideais liberais e nacionalistas.",
-      "subtopics": [
-        {
-          "id": "1820",
-          "title": "Revoluções de 1820",
-          "content": "Movimentos revolucionários em Portugal, Espanha e Itália."
-        },
-        {
-          "id": "1830",
-          "title": "Revoluções de 1830",
-          "content": "A Revolução de Julho na França e seus efeitos na Europa."
-        },
-        {
-          "id": "1848",
-          "title": "Primavera dos Povos (1848)",
-          "content": "A onda revolucionária que varreu a Europa em 1848."
-        },
-        {
-          "id": "consequencias",
-          "title": "Consequências das Revoluções",
-          "content": "Impactos políticos e sociais das revoluções liberais na Europa."
-        }
-      ]
-    },
-    {
-      "id": "socialismos",
-      "title": "Socialismos",
-      "period": "1830-1917",
-      "summary": "Conjunto de doutrinas políticas e econômicas que defendem a propriedade coletiva dos meios de produção.",
-      "subtopics": [
-        {
-          "id": "utopico",
-          "title": "Socialismo Utópico",
-          "content": "Primeiras ideias socialistas de Owen, Saint-Simon e Fourier."
-        },
-        {
-          "id": "cientifico",
-          "title": "Socialismo Científico",
-          "content": "Teorias de Marx e Engels sobre o materialismo histórico e a luta de classes."
-        },
-        {
-          "id": "comuna-paris",
-          "title": "Comuna de Paris",
-          "content": "O primeiro governo operário da história, sua formação e derrota."
-        },
-        {
-          "id": "revolucao-russa",
-          "title": "Revolução Russa",
-          "content": "O triunfo das ideias socialistas na Rússia em 1917."
-        }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,130 +1,225 @@
 {
-  "napoleao": [
-    {
-      "question": "Qual título Napoleão adotou em 1804?",
-      "options": [
-        "Primeiro-Cônsul",
-        "Imperador dos Franceses",
-        "Rei da França",
-        "Ditador Vitalício"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Qual batalha marcou a derrota definitiva de Napoleão?",
-      "options": [
-        "Batalha de Austerlitz",
-        "Batalha de Trafalgar",
-        "Batalha de Waterloo",
-        "Batalha de Borodino"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "Onde Napoleão morreu exilado?",
-      "options": [
-        "Ilha de Elba",
-        "Ilha de Santa Helena",
-        "Córsega",
-        "Ilha de Malta"
-      ],
-      "correctAnswer": 1
-    }
-  ],
-  "liberalismo": [
-    {
-      "question": "Qual destes pensadores é considerado um dos principais teóricos do liberalismo político?",
-      "options": [
-        "Thomas Hobbes",
-        "John Locke",
-        "Jean-Jacques Rousseau",
-        "Platão"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Qual princípio econômico é fundamental para o liberalismo clássico?",
-      "options": [
-        "Intervenção estatal na economia",
-        "Planejamento econômico centralizado",
-        "Laissez-faire (não intervenção do Estado)",
-        "Protecionismo comercial"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "Qual documento foi importante para o desenvolvimento do liberalismo inglês?",
-      "options": [
-        "Declaração dos Direitos do Homem e do Cidadão",
-        "Bill of Rights",
-        "Constituição de Cádiz",
-        "Código Napoleônico"
-      ],
-      "correctAnswer": 1
-    }
-  ],
-  "revolucoes-liberais": [
-    {
-      "question": "Qual destes países NÃO foi diretamente afetado pelas revoluções de 1848?",
-      "options": [
-        "França",
-        "Estados Alemães",
-        "Império Austríaco",
-        "Rússia"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "question": "Qual foi o resultado mais comum das revoluções de 1848 na Europa?",
-      "options": [
-        "O estabelecimento de repúblicas democráticas",
-        "O triunfo completo das ideias liberais",
-        "A restauração dos regimes anteriores com algumas concessões",
-        "A vitória do socialismo"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "Qual destas ideologias ganhou força durante as revoluções liberais do século XIX?",
-      "options": [
-        "Absolutismo",
-        "Nacionalismo",
-        "Fascismo",
-        "Fundamentalismo religioso"
-      ],
-      "correctAnswer": 1
-    }
-  ],
-  "socialismos": [
-    {
-      "question": "Quem escreveu o 'Manifesto Comunista'?",
-      "options": [
-        "Karl Marx e Friedrich Engels",
-        "Robert Owen e Charles Fourier",
-        "Louis Blanc e Pierre-Joseph Proudhon",
-        "Lenin e Trotsky"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "question": "O que Marx e Engels entendiam por 'ditadura do proletariado'?",
-      "options": [
-        "Um governo autoritário liderado por um único partido",
-        "O domínio político da classe operária após a revolução socialista",
-        "A eliminação de todas as classes sociais",
-        "A nacionalização imediata de todos os meios de produção"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Qual destes NÃO foi um socialista utópico?",
-      "options": [
-        "Charles Fourier",
-        "Robert Owen",
-        "Saint-Simon",
-        "Friedrich Engels"
-      ],
-      "correctAnswer": 3
-    }
-  ]
+    "napoleao": [
+        {
+            "question": "Qual foi a principal medida econômica de Napoleão para combater a Inglaterra?",
+            "options": [
+                "Bloqueio Continental",
+                "Criação do Banco da França",
+                "Incentivo às exportações",
+                "Protecionismo alfandegário geral"
+            ],
+            "correctAnswer": 0,
+            "explanation": "O Bloqueio Continental foi uma política econômica que proibia os países europeus de comercializarem com a Inglaterra, visando isolá-la economicamente."
+        },
+        {
+            "question": "Qual país serviu como elo para quebrar o Bloqueio Continental imposto por Napoleão?",
+            "options": ["Espanha", "Portugal", "Rússia", "Áustria"],
+            "correctAnswer": 1,
+            "explanation": "Portugal mantinha fortes relações comerciais com a Inglaterra e resistiu ao bloqueio, o que levou à fuga da família real portuguesa para o Brasil em 1808."
+        },
+        {
+            "question": "O que aconteceu como consequência da resistência de Portugal ao Bloqueio Continental?",
+            "options": [
+                "Guerra entre França e Portugal",
+                "Aliança militar entre Portugal e Inglaterra",
+                "Revolução popular em Lisboa",
+                "Fuga da família real portuguesa para o Brasil em 1808"
+            ],
+            "correctAnswer": 3,
+            "explanation": "A resistência portuguesa ao bloqueio levou Napoleão a invadir Portugal, forçando a família real a fugir para o Brasil, evento que teve consequências profundas para a história brasileira."
+        },
+        {
+            "question": "Qual foi um dos principais investimentos sociais de Napoleão?",
+            "options": [
+                "Estabelecimento de sindicatos",
+                "Distribuição de terras para camponeses",
+                "Criação de escolas para formar mão de obra qualificada",
+                "Redução da jornada de trabalho"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Napoleão promoveu a criação de escolas para formar mão de obra qualificada, estimular debates intelectuais e a produção de ideias e livros."
+        },
+        {
+            "question": "O que foi o Congresso de Viena (1814-1815)?",
+            "options": [
+                "Uma conferência para discutir a industrialização europeia",
+                "Um encontro diplomático entre França e Inglaterra",
+                "Um acordo para dividir as colônias napoleônicas",
+                "Uma reunião para reorganizar as fronteiras políticas da Europa após Napoleão"
+            ],
+            "correctAnswer": 3,
+            "explanation": "O Congresso de Viena reuniu os países que lutaram contra Napoleão para reorganizar as fronteiras políticas da Europa e restaurar as monarquias nacionais após sua derrota."
+        }
+    ],
+    "liberalismo": [
+        {
+            "question": "Qual era a principal contradição do Código Civil Napoleônico em relação ao liberalismo?",
+            "options": [
+                "Estabelecia princípios liberais, mas proibia sindicatos e greves",
+                "Defendia a liberdade de expressão, mas censurava publicações",
+                "Protegia a propriedade privada, mas permitia confiscos estatais",
+                "Declarava igualdade perante a lei, mas mantinha privilégios à nobreza"
+            ],
+            "correctAnswer": 0,
+            "explanation": "O Código Civil Napoleônico incorporava princípios liberais como a igualdade perante a lei, mas contraditoriamente proibia organizações de trabalhadores como sindicatos e greves."
+        },
+        {
+            "question": "O que Charles Fourier propunha no socialismo utópico?",
+            "options": [
+                "O controle estatal de todos os meios de produção",
+                "A organização de sindicatos e greves sistemáticas",
+                "A tomada revolucionária do poder pelo proletariado",
+                "A construção de falanstérios com propriedade coletiva e sem dinheiro"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Fourier propunha o resgate ao retorno à natureza e a construção dos falanstérios - comunidades agroindustriais autônomas com propriedade coletiva e sem uso de dinheiro."
+        },
+        {
+            "question": "Qual é a principal diferença entre socialismo utópico e socialismo científico?",
+            "options": [
+                "O socialismo utópico era revolucionário, enquanto o científico era reformista",
+                "O socialismo utópico era teórico, enquanto o científico foi aplicado na prática",
+                "O socialismo utópico propunha modelos ideais sem análise científica da história, enquanto o científico se baseava no materialismo histórico",
+                "O socialismo utópico era contrário à propriedade privada, enquanto o científico a aceitava parcialmente"
+            ],
+            "correctAnswer": 2,
+            "explanation": "O socialismo utópico propunha modelos ideais de sociedade sem uma análise científica, enquanto o socialismo científico de Marx e Engels baseava-se no materialismo histórico e na análise sistemática das forças sociais."
+        },
+        {
+            "question": "Segundo Adam Smith, o que seria a 'mão invisível' do mercado?",
+            "options": [
+                "A manipulação dos preços pelos grandes empresários",
+                "A regulação do comércio internacional pelas potências econômicas",
+                "A intervenção estatal para corrigir falhas de mercado",
+                "A autorregulação do mercado através da busca do interesse individual"
+            ],
+            "correctAnswer": 3,
+            "explanation": "A 'mão invisível' é um conceito central do liberalismo econômico de Smith, sugerindo que a busca pelo interesse individual acaba promovendo o bem coletivo sem necessidade de intervenção estatal."
+        },
+        {
+            "question": "O que é o processo de 'proletarização' criticado pelos socialistas?",
+            "options": [
+                "A transformação de camponeses em trabalhadores assalariados urbanos",
+                "O estudo das condições de vida do proletariado",
+                "A participação dos operários em sindicatos",
+                "A ideologização política dos trabalhadores"
+            ],
+            "correctAnswer": 0,
+            "explanation": "A proletarização refere-se ao processo pelo qual camponeses independentes e artesãos tornavam-se trabalhadores assalariados nas cidades, perdendo o controle sobre seus meios de produção."
+        }
+    ],
+    "revolucoes-liberais": [
+        {
+            "question": "Quais foram as principais características do governo de Luís Filipe (1830-1848)?",
+            "options": [
+                "Observava o parlamento e criou leis favoráveis à burguesia",
+                "Favoreceu a aristocracia e limitou o poder da burguesia",
+                "Impôs severo controle da imprensa e proibiu manifestações",
+                "Estabeleceu o sufrágio universal e ampliou direitos trabalhistas"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Luís Filipe, conhecido como o 'rei burguês', governou observando o parlamento, criou leis e impostos favoráveis à burguesia e estimulou a industrialização."
+        },
+        {
+            "question": "Por que a Revolução de 1830 na França ficou conhecida como 'Jornadas Gloriosas'?",
+            "options": [
+                "Pelo estabelecimento da primeira república francesa",
+                "Pela unificação de liberais e socialistas em um movimento único",
+                "Pela vitória rápida e sem grandes derramamentos de sangue",
+                "Pela deposição de Carlos X e instalação de um regime monárquico moderado"
+            ],
+            "correctAnswer": 3,
+            "explanation": "A Revolução de 1830 foi chamada de 'Jornadas Gloriosas' por ter sido relativamente rápida e por ter resultado na queda de Carlos X e na instalação do regime monárquico constitucional de Luís Filipe."
+        },
+        {
+            "question": "Quais foram as principais demandas do movimento revolucionário de 1848?",
+            "options": [
+                "Ampliação da participação política e criação de parlamentos representativos",
+                "Retorno à monarquia absolutista e aos valores tradicionais",
+                "Estabelecimento de ditaduras militares e expansão colonial",
+                "Separação completa entre Igreja e Estado e secularização da sociedade"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As revoluções de 1848 (Primavera dos Povos) tinham como principais demandas a ampliação da participação política, parlamentos representativos, constituições escritas e independência nacional."
+        },
+        {
+            "question": "Como Carlos X (1824-1830) tentou fortalecer seu poder?",
+            "options": [
+                "Reduzindo impostos e promovendo a industrialização",
+                "Estabelecendo alianças com outros países europeus contra os conservadores",
+                "Ampliando o controle político com censura e aumentando o poder da Igreja na educação",
+                "Aliando-se aos liberais e à burguesia emergente"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Carlos X tentou reforçar seu poder através da censura, dando maior poder à Igreja na educação, indenizando nobres que perderam terras na Revolução Francesa e tentando limitar o poder dos liberais."
+        },
+        {
+            "question": "O que aconteceu com a Segunda República Francesa estabelecida em 1848?",
+            "options": [
+                "Transformou-se gradualmente em um império constitucional",
+                "Durou até a Comuna de Paris em 1871",
+                "Prosperou e se tornou um modelo para outros países europeus",
+                "Foi abolida em maio de 1851 após uma curta existência"
+            ],
+            "correctAnswer": 3,
+            "explanation": "A Segunda República Francesa foi abolida em maio de 1851, após uma curta existência, quando Luís Napoleão Bonaparte deu um golpe de estado e se proclamou imperador como Napoleão III."
+        }
+    ],
+    "socialismos": [
+        {
+            "question": "Quais eram as principais medidas implementadas pela Comuna de Paris?",
+            "options": [
+                "Alianças com potências estrangeiras e expansão militar",
+                "Censura à imprensa e controle centralizado da economia",
+                "Privatização de empresas estatais e redução de impostos",
+                "Substituição do exército pelo armamento do povo e separação entre igreja e estado"
+            ],
+            "correctAnswer": 3,
+            "explanation": "A Comuna implementou medidas como a substituição do exército pelo armamento geral do povo, separação entre igreja e estado, e entrega de fábricas abandonadas às cooperativas operárias."
+        },
+        {
+            "question": "Qual foi o papel dos militares na Comuna de Paris?",
+            "options": [
+                "Lideraram inicialmente o movimento, mas depois abandonaram a causa",
+                "Opuseram-se à Comuna e ajudaram em sua repressão",
+                "Mantiveram-se neutros durante todo o conflito",
+                "Participaram maciçamente e tiveram importância central na luta dos communards"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Os militares tiveram participação maciça na Comuna de Paris e importância central na luta dos communards, contribuindo significativamente para a resistência."
+        },
+        {
+            "question": "O que representou a Comuna de Paris para Karl Marx?",
+            "options": [
+                "Um exemplo prático de ditadura do proletariado",
+                "Uma revolução burguesa disfarçada",
+                "Um movimento anarquista sem base teórica sólida",
+                "Um fracasso tático do movimento operário"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Para Marx, a Comuna de Paris representou um exemplo prático de ditadura do proletariado, o primeiro governo operário da história, que influenciou profundamente seu pensamento revolucionário."
+        },
+        {
+            "question": "Qual princípio econômico foi implementado pela Comuna de Paris em relação às fábricas?",
+            "options": [
+                "Fechamento das indústrias urbanas e foco na produção rural",
+                "Nacionalização completa sob controle estatal",
+                "Manutenção da propriedade privada com maior regulação",
+                "Entrega das fábricas abandonadas às cooperativas operárias"
+            ],
+            "correctAnswer": 3,
+            "explanation": "A Comuna implementou a entrega das fábricas abandonadas ou paralisadas às cooperativas operárias, permitindo que os trabalhadores gerenciassem coletivamente a produção."
+        },
+        {
+            "question": "Qual medida da Comuna de Paris visava democratizar o poder judiciário?",
+            "options": [
+                "A manutenção dos juízes imperiais com supervisão popular",
+                "A abolição completa do sistema judicial formal",
+                "A extinção da 'independência' do judiciário e sujeição dos funcionários à eleição",
+                "A criação de tribunais populares sem formação jurídica"
+            ],
+            "correctAnswer": 2,
+            "explanation": "A Comuna extinguiu a 'independência' do poder judiciário, sujeitando seus funcionários à eleição popular, como forma de democratizar as instituições judiciais."
+        }
+    ]
 }
