@@ -87,13 +87,14 @@ const MainLayout = ({ children }: MainLayoutProps) => {
             {/* Sidebar - adaptado para responsividade com Tailwind */}
             {!readingMode && (
                 <motion.div
-                    className="bg-blue-900 text-white sm:relative sm:block absolute inset-y-0 left-0 z-50"
+                    className="bg-blue-900 text-white fixed inset-y-0 left-0 z-50 overflow-y-auto"
                     initial={{ width: sidebarOpen ? 250 : 0 }}
                     animate={{ width: sidebarOpen ? 250 : 0 }}
                     transition={{ duration: 0.2 }}
+                    style={{ maxHeight: '100vh' }}
                 >
                     <div className="p-4 h-full flex flex-col">
-                        <div className="flex items-center justify-between mb-8">
+                        <div className="flex items-center justify-between sticky top-0 bg-blue-900 py-2 z-10">
                             <h2
                                 className={`font-bold text-xl ${
                                     !sidebarOpen && 'hidden'
@@ -111,7 +112,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
 
                         {sidebarOpen && (
                             <>
-                                <nav className="flex-grow">
+                                <nav className="flex-grow mt-6 overflow-y-auto">
                                     <NavLink
                                         to="/"
                                         className={({ isActive }) =>
@@ -183,7 +184,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
                                     ))}
                                 </nav>
 
-                                <div className="mt-auto pt-4 border-t border-blue-800">
+                                <div className="pt-4 border-t border-blue-800 sticky bottom-0 bg-blue-900 pb-2">
                                     <div className="text-sm text-blue-300">
                                         Teclas de atalho:
                                     </div>
@@ -200,7 +201,12 @@ const MainLayout = ({ children }: MainLayoutProps) => {
             )}
 
             {/* Main content */}
-            <div className="flex-grow overflow-x-hidden">
+            <div
+                className={`flex-grow overflow-x-hidden ${
+                    sidebarOpen && !readingMode ? 'ml-[250px]' : ''
+                }`}
+                style={{ transition: 'margin-left 0.2s' }}
+            >
                 {/* Top navigation bar */}
                 <header
                     className={`bg-white shadow-sm ${
